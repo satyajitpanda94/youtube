@@ -4,7 +4,7 @@ import { ChannelDetails, Feed, Navbar, SearchResults, VideoDetails } from './com
 
 export default function App() {
   return (
-    <BrowserRouter basename='/youtube-clone'>
+    <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path='/' exact element={<Feed/>}/>
